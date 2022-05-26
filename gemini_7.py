@@ -36,6 +36,9 @@ class Gemini7:
         dict_lot = self.get_adjacent_value(self.df[[0, 1]], "Lot:")
         self.lot = list(dict_lot.values())[0]
 
+        dict_file = self.get_adjacent_value(self.df[[0, 1]], "File:")
+        self.file = list(dict_file.values())[0]
+
     def get_surface_areas(self):
 
         dict_bet = self.get_adjacent_value(self.df,
