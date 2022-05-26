@@ -6,6 +6,7 @@ Class to read exported Gemini 7 Surface Area Analyzer XLS File
 from typing import List, Dict, Any
 import pandas as pd
 
+
 class Gemini7:
 
     def __init__(self, path_xls: str):
